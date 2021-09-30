@@ -1,6 +1,6 @@
 # Web Portfolio
 All the code that goes into my personal portfolio website
-####---
+###
 This was the final project for my college [Web Development](http://github.com/emonzon42/CINF-201 "My Classwork") class
 
 
