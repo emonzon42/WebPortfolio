@@ -20,7 +20,7 @@ h1{
     font-family: 'Oswald';
 }
 
-h2 {
+h2, h3, h4, h5 {
     font-family: 'Ubuntu';
 }
 
@@ -65,7 +65,8 @@ p {
     background-color: white;
 }
 
-.nav li{
+
+.nav a{
     background-color: #ffae00;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -74,6 +75,13 @@ p {
     padding-top: 1em;
     padding-bottom: 1em;
     text-decoration: none;
+    ;
+}
+
+.nav a:hover { 
+    text-decoration: underline;
+    border: 2px dotted #ffae00;
+    background-color: #196dff;
 }
 
 
@@ -98,3 +106,22 @@ p {
 
 /* ---------------- EVERYTHING BELOW THIS LINE IS WORK EXPERIENCE CSS ----------------*/
 
+.work {
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.work main{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.work ul{
+    
+}
+
+.work aside{
+    display: flex;
+    justify-content: flex-end;
+}
