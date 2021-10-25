@@ -13,7 +13,7 @@
 
 body{
     background: #4ffdbd;
-    color: white;
+    color: black;
     font-family: Menlo;
 }
 
@@ -45,6 +45,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 0;
 }
 
 .nav ul{
@@ -59,11 +60,16 @@ p {
 .nav a{
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 .nav li a img{
     margin: 0 auto;
     padding: 0;
     background-color: white;
+}
+
+.nav img{
+    
 }
 
 
@@ -112,7 +118,8 @@ p {
 .socialmedia{
     border: black solid 1px;
     width: 25%;
-    color: blue
+    color: blue;
+    justify-content: flex-start;
     
 }
 
@@ -140,6 +147,34 @@ p {
     padding: 1em;
     width: 75%;
     justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.contactform h2{
+    text-align: center;
+}
+
+.contactform input{
+    display: flex;
+    justify-content: flex-end;
+    width: 30em;
+    height: 3em;
+    font-size: medium;
+}
+
+.contactform input:last-child{ /* submit button*/
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    width: 30em;
+    height: 10em;
+}
+
+.contactform textarea{
+    width: 30em;
+    height: 10em;
+    font-size: large;
 }
 
 
@@ -154,10 +189,6 @@ p {
 .work main{
     display:flex;
     justify-content: flex-start;
-}
-
-.work ul{
-    
 }
 
 .work aside{
