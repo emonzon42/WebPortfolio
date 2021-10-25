@@ -10,3 +10,30 @@
     display: table;
     clear: both;
 }
+
+body{
+    background: #4ffdbd;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black ;
+    color: black;
+    
+}
+
+.nav{
+    background-color: white;
+    border-bottom: 1px solid black ;
+}
+
+.header{
+    display: flex;
+    border-bottom: 1px solid black ;
+    justify-content: center;
+    
+}
