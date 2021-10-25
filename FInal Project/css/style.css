@@ -14,6 +14,7 @@
 body{
     background: #4ffdbd;
     color: white;
+    font-family: Menlo;
 }
 
 h1{
@@ -102,6 +103,44 @@ p {
 
 /* ---------------- EVERYTHING BELOW THIS LINE IS CONTACT CSS ---------------- */
 
+.contact{
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia{
+    border: black solid 1px;
+    width: 25%;
+    color: blue
+    
+}
+
+.socialmedia ul{
+    list-style-type: none;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    color: black;
+}
+
+.socialmedia a:hover{
+    color: #fe0000;
+    text-decoration: underline;
+}
+
+.socialmedia li{
+    padding: .5em;
+}
+
+.contactform{
+    border: black solid 1px;
+    margin-left: 2em;
+    padding: 1em;
+    width: 75%;
+    justify-content: center;
+}
 
 
 /* ---------------- EVERYTHING BELOW THIS LINE IS WORK EXPERIENCE CSS ----------------*/
