@@ -53,6 +53,7 @@ p {
 }
 .nav img{
     max-width: fit-content;
+    padding-left: 5%;
 }
 
 .nav .bar{
@@ -110,9 +111,13 @@ p {
 .socialmedia{
     border: black solid 1px;
     width: 25%;
-    color: blue;
     justify-content: flex-start;
     
+}
+
+.socialmedia h2{
+    padding: 2em;
+    padding-top: 0;
 }
 
 .socialmedia ul{
@@ -122,6 +127,14 @@ p {
 .socialmedia a{
     text-decoration: none;
     color: black;
+}
+
+.socialmedia img{
+    margin-right: .5em;
+}
+
+.socialmedia a span{
+    margin-bottom: 2em;
 }
 
 .socialmedia a:hover{
@@ -194,6 +207,7 @@ p {
 .work span{
     padding: 0;
     display: flex;
+    padding-bottom: 5%;
 }
 
 .work aside{
