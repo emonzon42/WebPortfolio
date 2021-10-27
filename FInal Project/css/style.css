@@ -31,7 +31,7 @@ p {
 
 .container{
     width: 100%;
-    max-width: 1250px;
+    max-width: 1312px;
     margin: 0 auto;
     background-color: white;
     border: 1px solid black ;
@@ -92,12 +92,60 @@ p {
     
 }
 
+footer{
+    background-color: black;
+    color: white;
+    padding: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 1em;
+}
+
+footer li{
+    padding-bottom: .5em;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffae00;
+}
+
+footer span{
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1em;
+}
+
 /* ---------------- EVERYTHING BELOW THIS LINE IS HOMEPAGE CSS ---------------- */
 
 .home{
     padding: 5px;
     margin-left: 1em;
     margin-right: 1em;
+    font-size: large;
+}
+
+.home span{
+    display: flex;
+    
+}
+.home img{
+    width: 720px;
+    height: 360px;
+}
+.home span img{
+    width: 50%;
+}
+.home span p{
+    padding: 2em;
+    padding-top: 0;
+    width: 50%;
+    
 }
 
 /* ---------------- EVERYTHING BELOW THIS LINE IS CONTACT CSS ---------------- */
