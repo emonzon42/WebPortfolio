@@ -132,18 +132,15 @@ footer span{
     font-size: large;
 }
 
-.home span{
+.home .textndpic{
     display: flex;
     
 }
-.home img{
-    width: 720px;
-    height: 360px;
-}
-.home span img{
+
+.home .textndpic img{
     width: 50%;
 }
-.home span p{
+.home .textndpic p{
     padding: 2em;
     padding-top: 0;
     width: 50%;
@@ -241,12 +238,12 @@ footer span{
     flex-direction: column;
 }
 
-.work h3{
+.work .subheader{
     padding: 0;
     display: flex;
 }
 
-.work main{
+.work .content{
     padding: 0;
     display:flex;
     justify-content: flex-start;
@@ -254,7 +251,7 @@ footer span{
     width:75%;
 }
 
-.work span{
+.work .information{
     padding: 0;
     display: flex;
     padding-bottom: 5%;
