@@ -277,3 +277,29 @@ footer span{
     display: flex;
     flex-direction: column;
 }
+
+
+/* ---------------- EVERYTHING BELOW THIS LINE IS PROJECTS PAGE CSS ----------------*/
+
+
+.projects{
+    padding: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: medium;
+}
+
+.projects .info{
+    display: flex;
+    
+}
+
+.projects .info img{
+    width: 50%;
+}
+.projects .info span{
+    padding: 2em;
+    padding-top: 0;
+    width: 50%;
+    
+}
