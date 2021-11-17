@@ -62,7 +62,8 @@ p {
     width:90%;
     margin:0 auto;
     margin-top: 2%;
-    margin-left: 5%;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .nav .bar a{
@@ -83,6 +84,7 @@ p {
     text-decoration: underline;
     border: 2px dotted #ffae00;
     background-color: #196dff;
+    color:white;
 }
 
 
