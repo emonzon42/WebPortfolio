@@ -271,6 +271,8 @@ footer span{
 .work img{
     width:fit-content;
     align-items: flex-end;
+    width: 200px;
+    height: 200px;
 }
 
 .work ul{
