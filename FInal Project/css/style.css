@@ -312,3 +312,14 @@ footer span{
     color:#fe0000;
 
 }
+
+
+/* ---------------- EVERYTHING BELOW THIS LINE IS ABOUT ME PAGE CSS ----------------*/
+
+
+.about{
+    padding: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: large;
+}
