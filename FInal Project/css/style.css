@@ -31,6 +31,10 @@ p {
     font-family: 'Roboto';
 }
 
+a{
+    color:#fe0000;
+}
+
 .container{
     width: 100%;
     max-width: 1312px;
@@ -446,8 +450,21 @@ footer span{
 
 .leader h2{
     text-decoration: underline;
+    font-size: xx-large;
+}
+.leader h3{
+    font-size: x-large;
 }
 
 .leader .experience{
     margin: 1em;
+    padding-bottom: 1em;
+}
+
+.leader .experience .content{
+    margin: 1em;
+}
+
+.leader span{
+    font-size: large;
 }
