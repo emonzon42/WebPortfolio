@@ -432,3 +432,22 @@ footer span{
     padding-left: .5em;
     text-decoration: underline;
 }
+
+
+/* ---------------- EVERYTHING BELOW THIS LINE IS LEADERSHIP EXTRACURRICULAR PAGE CSS ----------------*/
+
+
+.leader{
+    padding: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: large;
+}
+
+.leader h2{
+    text-decoration: underline;
+}
+
+.leader .experience{
+    margin: 1em;
+}
