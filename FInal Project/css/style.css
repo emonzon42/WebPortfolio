@@ -412,7 +412,7 @@ footer span{
 
 .projects .info{
     display: flex;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 
 .projects img{
@@ -433,6 +433,11 @@ footer span{
 .projects .info #flic #stick{/* reference image for project */
     padding-left: 5em;
     padding-right: 5em;
+}
+
+.projects .info #flic #loca{/* reference image for project */
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .projects .info #flic #mines{/* reference image for project */
