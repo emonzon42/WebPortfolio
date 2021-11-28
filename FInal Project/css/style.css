@@ -17,6 +17,7 @@ body{
     background: #4ffdbd;
     color: black;
     font-family: Menlo;
+    line-height: 1.5em;
 }
 
 h1{
@@ -37,7 +38,7 @@ a{
 
 .container{
     width: 100%;
-    max-width: 1312px;
+    max-width: 1350px;
     margin: 0 auto;
     background-color: white;
     border: 1px solid black ;
@@ -357,6 +358,7 @@ footer span{
     margin: 3em;
     display: flex;
     flex-direction: column;
+    line-height: normal;
 }
 
 .work .subheader{
@@ -464,15 +466,16 @@ footer span{
 
 
 .about{
-    padding: 2em;
+    padding: 3em;
     margin-left: 1em;
     margin-right: 1em;
     font-size: large;
+    font-family: 'Roboto';
 }
 
 .about h2{
-    padding-left: .5em;
     text-decoration: underline;
+    font-size: xx-large;
 }
 
 
