@@ -246,6 +246,7 @@ footer span{
     width: 100%;
     padding: 3em;
     padding-top: 1em;
+
 }
 
 .home em{
@@ -430,7 +431,7 @@ footer span{
     max-height: fit-content;
 }
 
-.projects .info #flic{
+.projects .info .flic{
     width: 50%;
     min-width: 50%;
     justify-content: center;
@@ -439,22 +440,22 @@ footer span{
 }
 
 /*padding to reference images to resize*/
-.projects .info #flic #stick{/* reference image for project */
+.projects .info .flic #stick{/* reference image for project */
     padding-left: 5em;
     padding-right: 5em;
 }
 
-.projects .info #flic #loca{/* reference image for project */
+.projects .info .flic #loca{/* reference image for project */
     padding-left: 3.5em;
     padding-right: 3.5em;
 }
 
-.projects .info #flic #mines{/* reference image for project */
+.projects .info .flic #mines{/* reference image for project */
     padding-left: 2em;
     padding-right: 2em;
 }
 
-.projects .info span{
+.projects .info .text{
     padding: 2em;
     padding-top: 0;
     width: 50%;
