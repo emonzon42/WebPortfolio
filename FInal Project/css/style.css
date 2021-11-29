@@ -244,7 +244,7 @@ footer span{
     max-width: fit-content;
     max-height: fit-content;
     width: 100%;
-    padding: 2em;
+    padding: 3em;
     padding-top: 1em;
 }
 
@@ -510,6 +510,15 @@ footer span{
 
 .leader .experience .content{
     margin: 1em;
+}
+
+.leader .experience img{
+    margin-left: 10em;
+}
+
+.leader .experience img#ot{
+    margin-left: 13.5em;
+    padding-left: 10em;
 }
 
 .leader span{
