@@ -24,6 +24,19 @@ h1{
     font-family: 'Oswald';
 }
 
+@media(max-width:720px){
+    h1{
+        font-size: x-large;
+    }
+}
+@media(max-width:500px){
+    h1{
+        padding-left: .5em;
+        font-size: larger;
+    }
+}
+
+
 h2, h3, h4, h5 {
     font-family: 'Ubuntu';
 }
@@ -150,7 +163,14 @@ a{
     }
 }
 
-@media(max-width:520px){
+
+@media(max-width:755px){
+    .nav .bar{
+        padding-left: 7em;
+    }
+}
+
+@media(max-width:570px){
 
     .nav .logo{
         width:100%;
@@ -191,6 +211,7 @@ a{
     
 }
 
+
 footer{
     background-color: black;
     color: white;
@@ -229,6 +250,12 @@ footer span{
     font-size: large;
 }
 
+@media(max-width:740px){
+    .home{
+        font-size: medium;
+    }
+}
+
 .home #center{
     margin-left: 25%;
     margin-right: 25%;
@@ -249,9 +276,34 @@ footer span{
     padding-left: 2em;
 }
 
+
+@media(max-width:740px){
+    .home em{
+        font-size: large;
+    }
+}
+
+@media(max-width:500px){
+    .home em{
+        padding-left: 0;
+    }
+}
+
 .home em#sub{
     font-size: medium;
     padding-left: 10em;
+}
+
+@media(max-width:740px){
+    .home em#sub{
+        font-size: small;
+        padding-left: 2em;
+    }
+}
+@media(max-width:500px){
+    .home em#sub{
+        padding-left: 0;
+    }
 }
 
 .home p{
@@ -264,6 +316,13 @@ footer span{
 .home li ul li{
     font-family: 'Menlo';
     font-size: medium;
+}
+
+
+@media(max-width:720px){
+    .home li ul li{
+        font-size: small;
+    }
 }
 
 .home .text{
@@ -352,6 +411,60 @@ footer span{
     font-size: large;
 }
 
+@media(max-width:1024px){
+    .contact{
+        margin: .5em;
+    }
+    .contactform{
+        padding-left: 1em;
+    }
+    .contactform input{
+        width:100%;
+        font-size: medium;
+    }
+    .contactform textarea{
+        width:80%;
+        font-size: medium;
+    }
+    .contactform input:last-child{
+        width:50%;
+    }
+}
+
+@media(max-width:720px){
+
+    .socialmedia h2{
+        padding: .8em;
+        padding-top: 0;
+    }
+    .socialmedia li{
+        padding: .2em;
+        padding-left: 0;
+    }
+    .socialmedia ul{
+        margin-block-start: 0;
+        display: inline;
+    }
+}
+
+@media(max-width:500px){
+    .contact,.contactform,.socialmedia{
+        font-size: smaller;
+    }
+    .socialmedia h2{
+        padding: 0;
+        padding-top: 1em;
+        margin-block-start: 0;
+    }
+    .socialmedia{
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    .contactform{
+        margin-left: .5em;
+    }
+}
+
 
 /* ---------------- EVERYTHING BELOW THIS LINE IS WORK EXPERIENCE CSS ----------------*/
 
@@ -360,6 +473,12 @@ footer span{
     display: flex;
     flex-direction: column;
     line-height: normal;
+}
+
+@media(max-width:850px){
+    .work{
+        font-size: small;
+    }
 }
 
 .work .subheader{
@@ -392,9 +511,33 @@ footer span{
 
 .work img{
     width:fit-content;
-    align-items: flex-end;
+    float:left;
     width: 200px;
     height: 200px;
+}
+
+
+@media(max-width:1112px){
+    .work img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:720px){
+    .work img{
+        display: none;
+    }
+}
+
+@media(max-width:500px){
+    .work{
+        margin-left:1.5em;
+    }
+    .work aside{
+        padding-left: 1em;
+    }
 }
 
 .work ul{
@@ -457,6 +600,27 @@ footer span{
     
 }
 
+
+@media(max-width:720px){
+    .projects{
+        font-size: small;
+    }
+    .projects .info .flic{
+        display: none;
+    }
+    
+    .projects .info .text{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:500px){
+    .projects{
+        font-size: x-small;
+    }
+}
+
 .projects a{
     color:#fe0000;
 
@@ -494,6 +658,7 @@ footer span{
     text-decoration: underline;
     font-size: xx-large;
 }
+
 .leader h3{
     font-size: x-large;
 }
@@ -518,4 +683,65 @@ footer span{
 
 .leader span{
     font-size: large;
+}
+@media(max-width:1080px){
+    .leader .experience img{
+        margin-left: 5em;
+    }
+}
+
+@media(max-width:1000px){
+    .leader .experience img{
+        width:100%;
+        height:auto;
+    }
+    .leader .experience img#ot{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media(max-width:720px){
+    .leader{
+        font-size: large;
+    }
+    .leader h2{
+        font-size: x-large;
+    }
+    .leader h3{
+        font-size: large;
+    }
+    .leader .experience img{
+        margin-left: 0em;
+    }
+    .leader span{
+        font-size: medium;
+    }
+}
+
+@media(max-width:500px){
+    .leader{
+        font-size: small;
+        padding: .5em;
+    }
+    .leader h2{
+        font-size: larger;
+    }
+    .leader h3{
+        font-size: medium;
+    }
+    .leader .experience img{
+        margin-left: 0em;
+    }
+    .leader span, ul{
+        font-size: small;
+    }
+    
+}
+
+@media(max-width:350px){
+    .leader span, ul{
+        font-size: smaller;
+    }
 }
